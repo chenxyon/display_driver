@@ -1,0 +1,14 @@
+{
+    "name": "display_driver",
+    "version": "1.0.0",
+    "description": "多显示驱动组件：ILI9341 TFT（横/竖屏）与 SSD1306 OLED（0.91/0.96寸），DisplayDriver 抽象基类 + DisplayManager 注册表 + LvglPort 移植层 + DisplayUtils 工具",
+    "keywords": "display, lvgl, ili9341, ssd1306, tft, oled",
+    "author": "chenxyon",
+    "license": "MIT",
+    "frameworks": "espidf",
+    "platforms": ["espressif32"],
+    "dependencies": {
+        "lvgl/lvgl": "^9.2.0",
+        "fonts": "*"
+    }
+}
